@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#mensaje {
+    font-size: 72px;
+    font-weight: bold;
+    color: black;
+    animation: mover 2s ease-in-out infinite alternate;
+}
+
+@keyframes mover {
+    from {
+        transform: translateX(-10px);
+    }
+
+    to {
+        transform: translateX(10px);
+    }
+}
